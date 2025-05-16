@@ -1,0 +1,722 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/* Topbar */
+
+.topbarDiv{
+  background-color:#2f3d7e;
+   color: #fff;
+   font-size: 10px;
+  padding:10px 100px;
+   display:flex;
+   justify-content:space-between;
+  align-items:center
+}
+ 
+.topbarFirstDiv{
+  display:flex;
+  gap:20px;
+  align-items:center
+}
+
+.topbarFirstDiv-span{
+  font-size: 16p;
+}
+
+.topbarSeconddiv{
+  display:flex;
+  gap:1px;
+  align-items:center
+}
+
+.topbarSeconddiv-a{
+  color:white;
+  text-decoration:none;
+  font-size: 16px;
+}
+/* heroSection */
+.heroSection{
+  background-size:cover;
+        background-position:center;
+        position:relative;
+        display:flex;
+        align-items:center;
+        justify-content:center; 
+        background-image:url('./assests/3d-rendering-house-model_23-2150799769.jpg');
+        background-size: 600px 500px;
+      
+        border-radius:24px;
+        margin:20px;
+}
+
+.heroSection-mainDiv{
+  border-radius:24px;
+  height:120%;
+  display:flex;
+  align-items:center;
+  justify-content:center
+}
+
+.heroSection-firstDiv{
+  text-align:center;
+  color:#fff;
+  width:100%;
+  height:500px;
+  padding:20px
+}
+
+.heroSection-firstDiv-p{
+  text-transform:uppercase;
+  font-size:14px;
+  color:white;
+  margin-bottom:10px;
+  margin-right:5px
+}
+
+.heroSection-firstDiv-h1{
+  font-size:58px;
+  margin:10px 0
+
+}
+
+.heroSection-firstDiv-p2{
+  font-size:18px;
+  margin-bottom:30px
+}
+
+.heroSection-secondDiv{
+  display:flex;
+  gap:20px;
+  justify-content:center;
+  margin-bottom:30px
+}
+
+.heroSection-Button{
+  padding:10px 20px;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+  background-color:#ed7d3a;
+  color:white
+}
+
+.heroSection-Button2{
+  padding:10px 20px;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+  background-Color:#ffffff00;
+  color:white;
+   border:2px solid white
+}
+
+.heroSection-thirdDiv{
+  display: flex;
+   gap:10px;
+  background-color:white;
+   padding:22px;
+   border-radius: 10px;
+   justify-content: center;
+    box-sizing: border-box
+}
+
+.heroSection-thirdDiv-input{
+  font-size:13px;
+ flex: 1 1 120px;
+  min-width: none;
+  Width:120px ;
+  padding:12px 6px;
+  background-color:#f6f8ff;
+   border-color: #edf0ff;
+   border-radius: 8px;
+   gap: 10px;
+   border:none
+}
+
+.heroSection-thirdDiv-Button{
+  font-size:13px;
+  flex: 1 1 120px;
+   min-width: none;
+   Width:120px ;
+  padding:12px 6px;
+  background-color:#ed7d3a;
+  border:none;
+  color:white;
+   border-radius:8px;
+    font-Size:16px
+}
+
+/* navbar css */
+
+
+.navbar-div{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background-color:#ffffff;
+
+padding: 15px 50px;
+
+}
+
+.navbar-firstDiv{
+  font-size:18px;
+  font-weight:bold;
+  color: #ee894d;
+   text-decoration:none 
+}
+
+.navbar-firstDiv-img{
+  width:100px;
+}
+
+.navbar-div-ul{
+display:flex;
+list-style:none;
+gap:55px;
+ margin:0;
+ padding:0;
+ margin-left:255px
+}
+
+.navbar-div-ul-li-a{
+  text-decoration:none;
+  color:#0B3D91;
+  font-weight:bold;
+  transition: color 0.3s;
+  letter-spacing:0.5px
+}
+
+.navbar-button{
+  padding:10px 20px;
+  background-color:#ed7d3a;
+  color:white;
+   font-size:15px;
+   letter-spacing:0.5px;
+   border:none;
+  border-radius:6px;
+  cursor:pointer;
+  font-weight:600;
+  transition: 0.3s;
+   margin-right:65px
+}
+
+
+/* Apartment */
+
+.apartmentDiv{
+  margin-left:20px;
+   margin-right:20px;
+  padding-bottom:70px
+}
+
+.apartmentDiv-p{
+  text-align: center;
+   letter-spacing: 2px;
+   font-family: Kanchenjunga sans-serif;
+   text-transform: uppercase;
+   font-size: 10px;
+   margin-bottom: 10px;
+   margin-top: 70px 
+}
+.apartmentDiv-h1{
+  color: #2f3d7e;
+   font-weight: bold;
+   font-family: Kanchenjunga sans-serif;
+   font-size: 40px;
+   text-align: center
+}
+
+.apartmentFirstDiv{
+  display: flex;
+   justify-content: space-between;
+   gap: 12px;
+   margin: 40px 140px 0 140px 
+}
+
+.apartmentFirstDiv-map{
+         width: 200px;
+        height: 150px;
+        border: 1px solid #edf0ff;
+        border-bottom: 3px solid #ed7d3a;
+        border-radius: 12px;
+        padding: 10px;
+        text-align: left
+          
+}
+
+.apartmentFirstDiv-img{
+  width: 60px;
+   height: 60px 
+}
+
+.apartmentFirstDiv-h3{
+  margin: 10px 0 0 0 ;
+   font-size:24px
+}
+
+.apartmentFirstDiv-p{
+   margin: 5px 0 0 0;
+    font-size: 12px;
+    color: #b5b4b4;
+    font-weight:bold 
+}
+
+
+/* Home */
+
+.homeDiv{
+  background-color: #f6f8ff;
+   padding-top: 10px;
+   padding-bottom:70px
+
+}
+
+.homeDiv-p{
+  margin-top:30px;
+   text-align: center;
+   letter-spacing: 2px;
+   font-family: Kanchenjunga sans-serif;
+   text-transform: uppercase;
+   font-size: 10px;
+   margin-bottom: 10px 
+}
+
+.homeDiv-h1{
+  color: #2f3d7e;
+   font-weight: bold;
+   font-family: Kanchenjunga sans-serif;
+   font-size: 40px;
+   text-align: center
+}
+
+.homeFirstDiv{
+  display: flex;
+   justify-content: space-between;
+   gap: 6px;
+   margin: 40px 140px 0 140px 
+}
+
+.homeSecondDiv{
+           width: 220px;
+            height: 200px;
+            border: 1px solid #edf0ff;
+            background-color:white;
+            border-radius:12px;
+            padding: 10px;
+            text-align: center;
+            margin-top:40px
+          
+}
+
+.homeSecondDiv-img{
+  width: 60px;
+   height: 60px;
+   margin-top:20px;
+
+}
+
+.homeSecondDiv-h3{
+  margin: 10px 0 0 0 ;
+   font-size:24px
+}
+
+.homeSecondDiv-p{
+  margin: 5px 0 0 0;
+   font-size: 12px;
+   color: #b6b6b6
+}
+
+
+/* Featuredproperty */
+.featuredDiv{
+  background-color: #f6f8ff;
+   padding-top: 10px;
+   padding-bottom:70px
+}
+
+.featuredDiv-p{
+  text-align: center;
+   letter-spacing: 2px;
+   font-family: Kanchenjunga sans-serif;
+   text-transform: uppercase;
+   font-size: 12px;
+   margin-bottom: 10px;
+   margin-top: 20px 
+}
+
+.featuredDiv-h1{
+  color: #2f3d7e;
+   font-weight: bold;
+   font-family: Kanchenjunga sans-serif;
+   font-size: 40px;
+   text-align: center 
+}
+
+.featuredFirstDiv{
+  display: flex;
+   justify-content: space-between;
+   gap: 12px;
+   margin: 40px 140px 0 140px 
+}
+
+.featuredFirstDiv-mapdiv{
+
+           width: 320px;
+          height: 440px;
+          border: 1px solid #edf0ff;
+          border-radius: 14px;
+          text-align: left;
+          background-color: white;
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05)
+
+
+}
+
+.featuredFirstDiv-imgdiv{
+
+  position: relative;
+   width: 100%;
+   height: 260px
+
+}
+
+.featuredFirstDiv-img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-top-right-radius: 14px;
+                border-top-left-radius: 14px;
+              
+}
+
+.featuredFirstDiv-button{
+
+              position: absolute;
+              top: 10px;
+              left: 10px;
+              background-color: #0B3D91;
+              border-radius: 6px;
+              width: 70px;
+              height: 30px;
+              font-Size: 13px;
+              color: white;
+              border: none;
+              cursor: pointer
+            
+
+}
+
+.featuredDiv-h3{
+  margin: 10px;
+   font-size: 18px 
+}
+
+.featuredDiv-p2{
+    margin: 0 10px 5px 10px;
+     font-size: 11px;
+     color: #9c9c9c;
+     font-weight: bold;
+     letter-spacing: 0.6px ;
+     text-align: left;
+
+}
+
+.featuredDiv-p1{
+  margin: 0 10px 5px 10px;
+   font-size: 10px;
+   color: #b5b4b4;
+   font-weight: bold 
+
+}
+
+.featuredDiv-hr{
+   border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0 10px 
+}
+
+.featuredSecondDiv{
+  display: flex;
+   justify-content: space-between;
+   align-items: center;
+    margin: 10px
+}
+
+.featuredSecondDiv-p{
+  font-size: 12px;
+   font-weight: bold;
+   margin: 0
+}
+
+.featuredSecondDiv-button{
+   padding: 6px 10px;
+   background-color: #ed7d3a;
+   color: white;
+   border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer
+            
+}
+
+/* About */
+
+.aboutDiv{
+margin-right:20px;
+ display:flex;
+ gap:10px;
+ margin-top:70px;
+margin-bottom:50px
+
+}
+
+.aboutFirstdiv{
+        background-size:cover;
+        background-position:center;
+        position:relative;
+        display:flex;
+        align-items:center;
+        justify-content: space-between; 
+        background-image:url('./assests/mhouse.jpg');
+        background-size: 600px 500px;
+        margin-left:200px;
+        width:450px;
+        height:400px;
+        border-radius:16px        
+        
+}
+
+.aboutSeconddiv{
+  margin-left:30px;
+}
+
+.aboutSeconddiv-p{
+  font-family: Kanchenjunga, sans-serif;
+   text-transform:uppercase;
+   font-size:12px;
+   letter-spacing: 2px;
+  font-weight:bold
+}
+
+.aboutThirdDiv{
+  color:#2f3d7e;
+  font-family: Kanchenjunga sans-serif;
+   font-weight:bold;
+  font-size:34px
+}
+.aboutThirdDiv-p{
+  color:#b6b6b6;
+}
+
+.aboutFourthDiv{
+  display:flex;
+   justify-content:space-between;
+  padding:10px 20px;
+   font-size:14px
+}
+.aboutFourthDiv-p{
+  color:#969696;
+}
+.aboutFifthDiv{
+  display:flex;
+   justify-content:space-between;
+  padding:10px 20px;
+   font-size:14px
+}
+
+.aboutSeconddiv-button{
+  padding:10px 20px;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+   background-color:#ed7d3a;
+  color:white;
+  width:160px;
+   height:60px;
+   font-size:20px
+}
+
+
+
+/* sell */
+
+.sellDiv{
+  display:flex;
+  justify-content: space-between;
+   gap:10px;
+   margin-Top:120px
+}
+.sellLeftDiv{
+  margin-left:180px;
+}
+
+.sellLeftDiv-p{
+  font-family: Kanchenjunga, sans-serif;
+   text-transform:uppercase;
+   font-size:12px;
+   letter-spacing: 2px;
+  font-weight:bold
+}
+
+.sellLeftDiv-h1{
+color:#2f3d7e;
+font-family: Kanchenjunga sans-serif;
+ font-weight:bold
+}
+
+.sellLeftDiv-p1{
+  color:#969696;
+   font-size:14px
+}
+
+.sellSecondDiv{
+  font-size:12px
+}
+
+.sellSecondDiv-p{
+  font-size: 11px;
+}
+.sellDiv-button{
+  padding:10px 20px;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+   background-color:#ed7d3a;
+  color:white;
+  width:160px;
+   height:60px;
+    font-size:20px
+}
+
+.sellDiv-img{
+         background-size:cover;
+        background-position:center;
+
+        position:relative;
+        display:flex;
+        align-items:center;
+        justify-content: space-between; 
+        background-image:url('./assests/mhouse.jpg');
+        background-size: 600px 500px;
+        margin-right:120px;
+        
+        width:450px;
+        height:400px;
+        border-radius:16px
+
+}
+
+.contactDiv{
+  margin-left:20px;
+   margin-right:20px;
+   display:flex;
+   justify-content:space-between;
+   background-color:#f6f8ff ;
+   margin-top:60px;
+   margin-bottom:60px;
+   margin-left:80px;
+   margin-right:80px
+}
+
+.contactFirstDiv{
+  margin-left:30px;
+   margin-top:20px
+}
+
+.contactDiv-h1{
+  color:#2f3d7e;
+  font-family: Kanchenjunga sans-serif;
+   font-weight:bold;
+   font-size:24px
+}
+
+.contactDiv-p{
+  color:#cccccc;
+  font-size: 14px;
+}
+
+.contactSecondDiv{
+  display:flex;
+  gap:5px;
+  justify-content:center;
+  margin-bottom:30px;
+   margin-top:40px;
+   margin-right:100px
+}
+
+.contactSecondDiv-button1{
+  padding:10px 20px;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+  background-color:#ffffff00;
+  color:#ed7d3a;
+   border:2px solid #ed7d3a ;
+   width:200px;
+   height:50px,
+}
+
+.contactSecondDiv-button2{
+  padding:10px 20px;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+   background-color:#ed7d3a;
+  color:white;
+   width:200px;
+   height:50px
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media (max-width: 599px) {
+  /* Mobile styles */
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+
+ .navbar-div{
+margin-left: 59px;
+}
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+  /* Small desktop styles */
+}
+
+@media (min-width: 1200px) {
+  /* Large desktop styles */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
