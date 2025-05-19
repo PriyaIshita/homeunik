@@ -12,7 +12,7 @@ const Contact = () => {
      <div className='contactSecondDiv'>
               
                
-    <button className='contactSecondDiv-button1'>+91  &nbsp; 78785 35701</button>
+    <button className='contactSecondDiv-button1'>+91 78785 35701</button>
 &nbsp; &nbsp;
     <button className='contactSecondDiv-button2'> Contact Now</button>
 

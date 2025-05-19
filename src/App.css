@@ -297,6 +297,7 @@ gap:55px;
 
 .homeFirstDiv{
   display: flex;
+  flex-wrap: wrap;
    justify-content: space-between;
    gap: 6px;
    margin: 40px 140px 0 140px 
@@ -659,7 +660,7 @@ font-family: Kanchenjunga sans-serif;
   color:#ed7d3a;
    border:2px solid #ed7d3a ;
    width:200px;
-   height:50px,
+   height:50px
 }
 
 .contactSecondDiv-button2{
@@ -698,7 +699,8 @@ font-family: Kanchenjunga sans-serif;
    position: relative;
    width: 800px;
    height: 260px;
-   border-radius:14px 
+   border-radius:14px;
+  
 }
 
 .siteFirstDiv-map{
@@ -769,7 +771,7 @@ font-family: Kanchenjunga sans-serif;
    margin-right:20px;
   padding-top: 10px;
    padding-bottom:70px;
-   margin-bottom:160px 
+   /* margin-bottom:160px  */
 
 }
 .blogDiv-p{
@@ -779,20 +781,20 @@ font-family: Kanchenjunga sans-serif;
    text-transform: uppercase;
    font-size: 10px;
    margin-bottom: 10px;
-   margin-top: 20px 
+   margin-top: 20px; 
 }
 .blogDiv-h1{
   color: #2f3d7e;
    font-weight: bold;
    font-family: Kanchenjunga sans-serif;
    font-size: 40px;
-   text-align: center
+   text-align: center;
 }
 
 .blogFirstDiv{
   display: flex;
    gap: 10px;
-    margin: 40px 140px 0 140px 
+    margin: 40px 140px 0 140px;
 }
 .blogFirstDiv-map{
           width: 320px;
@@ -818,14 +820,136 @@ font-family: Kanchenjunga sans-serif;
 .blogSecondDiv-h3{
   margin: 10px;
    font-size: 18px;
-    color:#b5b4b4
+    color:#b5b4b4;
 }
 
 .blogSecondDiv-p{
   margin: 0 10px 5px 10px;
    font-size: 13px;
     color: #555;
-     font-weight: bold 
+     font-weight: bold;
+}
+
+.bottomDiv{
+        background-color: #f6f8ff;
+        padding: 40px 60px;
+        margin-left:160px;
+        margin-right:160px;
+        border-radius: 10px;
+        margin-bottom:0px;
+        margin-top: 120px;
+}
+
+.bottomDiv-h2{
+  margin-bottom: 10px;
+   font-size:20px;
+    color:#2f3d7e ;
+}
+.bottomFirstDiv{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+          gap: 10px;
+}
+
+.bottomFirstDiv-p{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+          gap: 10px;
+}
+
+.bottomSecondDiv{
+  display: flex;
+}
+
+.bottomSecondDiv-input{
+              font-size: 13px;
+              padding: 12px 6px;
+              background-color: #fff;
+              border:none;
+}
+
+.bottomSecondDiv-button{
+              padding: 12px 20px;
+              background-color: #ed7d3a;
+              border: none;
+              color: white;
+              font-size: 14px;
+}
+
+.footerDiv{
+        background-color: #2f3d7e;
+        border-radius: 10px;
+        padding: 40px 60px;
+        color: white;
+        justify-content: space-between;
+        display: flex;
+        margin: 0 40px;
+        gap: 25px;
+        position:relative;
+        flex-wrap: wrap;
+       
+}
+.footerDiv-img{
+   width: 60px;
+}
+.footerDiv-span{
+  font-size: 18px;
+            font-weight: bold;
+            color: #ee894d;
+            margin-left: 10px;
+}
+.footerDiv-p{
+  margin-top: 20px;
+   font-size: 13px;
+   font-weight: bold;
+}
+.footerDiv2{
+  display: flex;
+   gap: 10px;
+}
+.footerDiv2-div{
+  background-color: #ed7d3a;
+                color: white;
+                border-radius: 4px;
+                width: 35px;
+                height: 35px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 16px;
+                cursor: pointer;
+                flex-wrap: wrap;
+}
+.footerDiv3{
+  text-align: center;
+}
+.footerDiv3-p{
+  color: #ee894d;
+   font-size: 18px;
+   font-weight:bold; 
+}
+.footerDiv3-p2{
+  font-size: 12px;
+}
+.footerDiv4-p{
+  margin-top: 20px;
+   font-size: 13px;
+   font-weight: bold;
+}
+.footerDiv4-button{
+   padding: 10px 20px;
+            background-color: #ed7d3a;
+            color: white;
+            font-size: 13px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            margin-top: 10px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -835,7 +959,132 @@ font-family: Kanchenjunga sans-serif;
 
 @media (max-width: 599px) {
   /* Mobile styles */
+
+  .navbar-div-ul {
+    display: block;
+    margin-left:0px;
+    padding-bottom: 5px;
 }
+.topbarDiv {
+    padding: 10px 50px;
+    display: block;
+}
+
+.topbarSeconddiv {
+    justify-content: end;
+    margin-top: 5px;
+}
+.navbar-button {
+    margin-right: 0px;
+}
+.heroSection-firstDiv {
+    height: 560px;
+}
+
+.heroSection-thirdDiv {
+    display: block;
+    }
+
+.apartmentFirstDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+    gap: 25px;
+}    
+.featuredFirstDiv {
+    margin: 10px;
+}
+.featuredFirstDiv {
+    display: block;
+} 
+.featuredFirstDiv-mapdiv {
+    width: auto;
+    margin: 20px;
+}
+.aboutDiv {
+  display: block;
+   
+}
+.aboutFirstdiv {
+    margin: 47px; 
+}
+.homeFirstDiv {
+   
+  
+    margin: 20px;
+}
+.sellDiv {
+    display: block;
+    margin-Top: 120px;
+    margin-left: 40px;
+}
+.sellLeftDiv {
+   margin-left: 0px;
+}
+
+
+.contactSecondDiv{
+  margin-left: 70px;
+}
+.contactDiv {
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    display: block;
+    justify-content: space-between;
+    background-color: #f6f8ff;
+    margin-top: 60px;
+    /* margin-bottom: 60px; */
+    /* margin-left: 80px; */
+    /* margin-right: 80px; */
+}
+    .contactSecondDiv-button1 {
+        padding: 5px;
+        width: 334px;
+    }
+.contactSecondDiv-button2 {
+    padding: 5px;
+    width: 334px;
+    
+    
+}
+
+
+.siteFirstDiv {
+    
+   
+    justify-content: space-between;
+    position: static;
+    width: auto;
+    height: auto;
+    border-radius: 14px;
+    flex-wrap: wrap;
+}
+.blogFirstDiv-map {
+    width: auto; 
+     height: auto;
+    border: 1px solid #edf0ff;
+    border-radius: 14px;
+    text-align: left;
+    background-color: #fff;
+}
+.blogFirstDiv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+   
+    
+}
+.bottomDiv {
+  
+  
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 0px;
+    
+}
+}
+
 
 @media (min-width: 600px) and (max-width: 899px) {
 
